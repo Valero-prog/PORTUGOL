@@ -12,6 +12,7 @@ programa
 
 	funcao real AplicarDesconto(real precoCurso)
 	{
+		escreva("Valor do desconto: ", precoCurso - (precoCurso * 0.8), "\n")
 		retorne precoCurso * 0.8
 	}
 }
